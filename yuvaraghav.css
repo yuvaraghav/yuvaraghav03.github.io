@@ -1,0 +1,163 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    background-image: url(../img/grayscale-photo-of-chair-inside-the-establishment-162389.jpg);
+    background-size: 100%;
+    color: white;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-decoration-style: none;
+}
+nav ul li{
+    list-style-type:none;
+    display: inline;
+    
+}
+nav ul{
+    background-color: rgb(2, 2, 2);
+    padding: 20px 20px 10px 20px;
+    min-height: 40px;
+}
+nav ul li a{
+    padding: 10px 10px;
+}
+.toggle{
+    display: block;
+  background-color:  rgb(12, 40, 63);
+  background-size: cover;
+ 
+}
+.toggle i{
+    font-size: 40px;
+    color: white;
+
+    
+}
+.active{
+    
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.bar{
+    text-align: right;
+}
+nav ul li:hover{
+    background-color: rgb(221, 51, 51);
+
+}
+.active #hum{
+text-align: right;
+
+}
+.active{
+    display: none;
+}
+ul li.hey{
+    float: right;
+    font-size: 30px;
+}
+h1.logo{
+    display: none;
+    font-size: 30px;
+}
+nav.black ul{
+    background:  rgb(12, 40, 63);
+    position: fixed;
+    margin-top: 0%;
+    width:98%;
+}
+.wrap img{
+    max-height: 300px;
+  max-width:300px;
+  border-radius: 200px;
+  zoom: 1;
+
+}
+.button button{
+background-color: rgb(0, 0, 0);
+color: white;
+width: 120px;
+height: 60px;
+
+}
+.repo{
+    width: 33.33%;
+float: left;
+}
+.repo h1{
+border: rgb(241, 0, 0) 3px solid;
+width: min-content;
+}
+.repo img{
+    width: 500px;
+    height: 600px;
+}
+#demo{
+    background-color: black;
+    width: 500px;
+    height: 600px;
+}
+
+.button{
+    text-align: center;
+}
+.wrap{
+    text-align: center;
+}
+
+@media screen and (max-width:750px){
+    .active{
+        display: block;
+    }   .active h1.logo{
+        display: inline;
+    
+    }
+    .repo{
+        width: 100%;
+    }
+    .repo img{
+        width: 300px;
+        height: 300px;
+    }
+    .wrap img{
+        max-height: 200px;
+      max-width:200px;
+      border-radius: 200px;
+    
+    }
+    nav ul{
+        display: block;
+       min-height: 50vh;
+       display: none;
+       
+    }nav ul li{
+        display: block;
+        text-align: center;
+        padding: 30px;
+        
+    }
+    .hell{
+        display: block;
+    }
+    ul li.hey{
+        display: none;
+    }
+  .again{
+      width: 100%;
+      border-bottom: 2px solid rgb(36, 36, 43);
+  }
+ .again img{
+     width: 80%;
+ }
+ 
+    .blue{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+nav.black ul{
+display: none;
+}
