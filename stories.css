@@ -1,0 +1,147 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    width: 80%;
+    margin: 0 10% 0;
+    border: 3px solid rgb(0, 0, 0);
+  
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-decoration-style: none;
+}
+nav ul li{
+    list-style-type:none;
+    display: inline;
+    
+}
+nav ul{
+    background-color: rgb(12, 13, 14);
+    padding: 20px 20px 10px 20px;
+    min-height: 40px;
+}
+nav ul li a{
+    padding: 10px 10px;
+}
+.toggle{
+    display: block;
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+ 
+}
+.toggle i{
+    font-size: 40px;
+    color: white;
+
+    
+}
+.active{
+    
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.bar{
+    text-align: right;
+}
+nav ul li:hover{
+    background-color: rgb(61, 61, 44);
+
+}
+.active #hum{
+text-align: right;
+
+}
+.active{
+    display: none;
+}
+ul li.hey{
+    float: right;
+    font-size: 30px;
+}
+h1.logo{
+    display: none;
+    font-size: 30px;
+}
+nav.black ul{
+    background:  rgb(14, 14, 14);
+    position: fixed;
+    margin-top: 0%;
+    width:77.5%;
+}
+.arti img{
+    width: 700px;
+    height: 400px;
+    
+}
+.arti p.artic{
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 550;
+    width: 80%;
+}
+.com input{
+    width: 400px;
+    height: 200px;
+}
+button{
+    background-color: rgb(206, 0, 0);
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width:750px){
+    .active{
+        display: block;
+    }   .active h1.logo{
+        display: inline;
+        color: white;
+    
+    }
+    body{
+        width: 100%;
+        border:none;
+        margin: 0 0 0 0;
+    }
+    .arti h1{
+        border-bottom: 2px solid rgb(0, 0, 49);
+        width: min-content;
+    }
+  .arti img{
+      width:100%;
+      height: 300px;
+  }
+  .arti p.artic{
+      width: 100%;
+  }
+    nav ul{
+        display: block;
+       min-height: 50vh;
+       display: none;
+       
+    }nav ul li{
+        display: block;
+        text-align: center;
+        padding: 30px;
+        
+    }
+    .hell{
+        display: block;
+    }
+    ul li.hey{
+        display: none;
+    }
+  .again{
+      width: 100%;
+      border-bottom: 2px solid rgb(36, 36, 43);
+  }
+ .again img{
+     width: 80%;
+ }
+ 
+    .blue{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+nav.black ul{
+display: none;
+}
