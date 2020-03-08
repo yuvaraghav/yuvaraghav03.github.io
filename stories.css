@@ -88,6 +88,10 @@ button{
     background-color: rgb(206, 0, 0);
     color: rgb(255, 255, 255);
 }
+.embed{
+    width: 100%;
+    height: 1200px;
+}
 @media screen and (max-width:750px){
     .active{
         display: block;
